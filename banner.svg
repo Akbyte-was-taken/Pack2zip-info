@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <defs>
+    <style>
+      .title { font: 800 86px Inter, ui-sans-serif, system-ui, Segoe UI, Arial; }
+      .sub   { font: 500 22px Inter, ui-sans-serif, system-ui, Segoe UI, Arial; opacity: .85; }
+      .tag   { font: 600 16px Inter, ui-sans-serif, system-ui, Segoe UI, Arial; letter-spacing: .08em; opacity: .9; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="420" fill="#000000"/>
+
+  <!-- Thin accent line -->
+  <rect x="0" y="392" width="1400" height="6" fill="#FBBF24"/>
+
+  <!-- Icon: simple "box" mark -->
+  <g transform="translate(140,120)">
+    <rect x="0" y="0" width="128" height="128" rx="26" fill="#FBBF24"/>
+    <path d="M34 42h60v16H34zM34 70h60v16H34zM34 98h40v16H34z" fill="#000000"/>
+  </g>
+
+  <!-- Text -->
+  <text x="310" y="205" class="title" fill="#FBBF24">Pack2Zip</text>
+  <text x="312" y="255" class="sub" fill="#FFFFFF">
+    Convert Minecraft <tspan font-weight="700">.mrpack</tspan> files to <tspan font-weight="700">.zip</tspan> • Built by <tspan font-weight="700">Akbyte</tspan>
+  </text>
+
+  <!-- Small label -->
+  <text x="312" y="300" class="tag" fill="#FFFFFF">BROWSER-BASED • FAST • PRIVACY-FIRST</text>
+</svg>
